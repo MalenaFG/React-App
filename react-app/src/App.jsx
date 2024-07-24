@@ -1,27 +1,19 @@
-
 import './App.css'
-import Navbar from './component/Navbar/Navbar'
-import Footer from './component/Footer/Footer'
-import Sidebar from './component/Sidebar/Sidebar'
+import ApartmentsList from './components/ApartmentsList/ApartmentsList.jsx'
 
-const App = () => {
+import Footer from './components/Footer/Footer'
+import Navbar from './components/Navbar/Navbar.jsx'
+import Sidebar from './components/Sidebar/Sidebar'
+
+function App() {
 
   return (
-    <div className='App' >
-
-      <Navbar>
-        <p>Yo soy Navbar</p>
-      </Navbar>
-
-      <Footer />
+    <div className='App'>
+      <Navbar />
       <Sidebar />
-
-
-
-
+      <ApartmentsList />
+      <Footer />
     </div>
-
-
   )
 }
 
