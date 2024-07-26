@@ -7,6 +7,7 @@ const ApartmentCard = ({ id, city, name, bathrooms, price, review_scores_rating,
     }
 
     return (
+
         <article className="ApartmentCard" style={customStyle}>
             <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/9516e180691313.5ce82f4b6d95f.jpg" alt="Apartment" />
             <div className="details">
